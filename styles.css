@@ -1,0 +1,191 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p {
+    font-size: 1.125rem;
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-card {
+    width: 20rem;
+    height: 28.125rem;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+.left-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-card-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.left-card-header h2 {
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.circle h2 {
+    font-size: 3.125rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+
+.detail {
+    width: 100%;
+    height: 40%;
+    margin-top: 1.875rem;
+}
+
+.head {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.para {
+    margin: 1.25rem 2.5rem;
+    font-weight: 500;
+}
+
+.right-card {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 28.125rem;
+    border-radius: 0 10% 10% 0;
+    box-shadow: .625rem .3125rem .3125rem hsla(241, 100%, 89%, 0.2);
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem 1.875rem;
+}
+
+.stats div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .625rem;
+    margin: .5rem 0;
+    padding: .1875rem .5rem
+}
+
+.right-card-header h2 {
+    color: hsl(224, 30%, 27%);
+    padding-left: 1.875rem;
+    margin-top: 1.875rem;
+}
+
+
+.light-red {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.light-red div {
+    display: flex;
+    gap: .3125rem;
+}
+
+.light-red h4 {
+    color: hsl(0, 100%, 67%);
+}
+
+.orange-yellow {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.orange-yellow div {
+    display: flex;
+    gap:.3125rem;
+}
+
+.orange-yellow h4 {
+    color: hsl(39, 100%, 56%);
+}
+
+.green-teal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.green-teal div {
+    display: flex;
+    gap:.3125rem;
+}
+
+.green-teal h4 {
+    color: hsl(166, 100%, 37%);
+}
+
+.cobalt-blue {
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.cobalt-blue div {
+    display: flex;
+    gap:.3125rem;
+}
+
+.cobalt-blue h4 {
+    color: hsl(234, 85%, 45%);
+}
+
+p span {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: hsl(224, 30%, 27%);
+}
+
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    width: 80%;
+    height: 40px;
+    color: hsl(0, 0%, 100%);
+    padding:.625rem 1.25rem;
+    border-radius: 3.125rem;
+    margin: .625rem 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
