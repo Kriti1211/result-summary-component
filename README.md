@@ -1,2 +1,2 @@
-# Results summary component
+# Results Summary Component
 
